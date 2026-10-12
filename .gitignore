@@ -1,2 +1,7 @@
 # Node.js
 node_modules/
+
+# 生成物 / 大文件，不纳入版本管理（超过 GitHub 100MB 限制）
+dump.sql
+out/topics.db
+*.db
